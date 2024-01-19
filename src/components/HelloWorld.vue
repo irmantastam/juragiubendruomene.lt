@@ -44,5 +44,6 @@ defineProps({
 .main-image {
   border-radius: 100%;
   aspect-ratio: 1;
+  max-width: 100%;
 }
 </style>
