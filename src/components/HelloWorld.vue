@@ -10,7 +10,7 @@ defineProps({
   <img
     class="main-image"
     width="360"
-    src="../assets/juragiu_bendruomene.jpeg"
+    src="../assets/juragiu_bendruomene.webp"
   />
 
   <h1>{{ msg }}</h1>
