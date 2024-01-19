@@ -1,40 +1,48 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from "vue";
 
 defineProps({
   msg: String,
-})
-
-const count = ref(0)
+});
 </script>
 
 <template>
+  <img
+    class="main-image"
+    width="360"
+    src="../assets/juragiu_bendruomene.jpeg"
+  />
+
   <h1>{{ msg }}</h1>
 
-  <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
-    <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
-    </p>
-  </div>
+  <h3>Adresas:</h3>
+
+  <p>Girininkų g. 6, Juragiai, LT-53286 Kauno r.</p>
 
   <p>
-    Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
+    <a
+      href="https://maps.app.goo.gl/r9A1W6LbUiGoJLtW8"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Žr. žemėlapyje 🌍
+    </a>
   </p>
-  <p>
-    Install
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
-    in your IDE for a better DX
+
+  <p class="card">
+    <a
+      href="https://www.facebook.com/profile.php?id=100067655868254"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Aplankykite mus Facebook! ⓕ
+    </a>
   </p>
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
 </template>
 
 <style scoped>
-.read-the-docs {
-  color: #888;
+.main-image {
+  border-radius: 100%;
+  aspect-ratio: 1;
 }
 </style>
