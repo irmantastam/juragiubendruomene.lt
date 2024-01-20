@@ -3,7 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
   color: #213547;
-  background-color: #f2f5f3;
+  background-color: rgb(247 249 250/1);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -34,6 +34,10 @@ h1 {
   line-height: 1.1;
 }
 
+h2 {
+  font-size: 1.2em;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -54,12 +58,12 @@ button:focus-visible {
 }
 
 .card {
-  padding: 2em;
+  margin: 2em 0;
 }
 
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
