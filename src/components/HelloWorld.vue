@@ -13,6 +13,7 @@ defineProps({
     height="300"
     src="../assets/juragiu_bendruomene.webp"
     alt="Juragių bendruomenės centras"
+    title="Juragių bendruomenės centras"
   />
 
   <h1>{{ msg }}</h1>
