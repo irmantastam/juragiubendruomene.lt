@@ -16,7 +16,7 @@ defineProps({
   />
 
   <h1>{{ msg }}</h1>
-  <p class="slogan">Būkime kartu!</p>
+  <p class="slogan">Būkime kartu! 🌿</p>
 
   <div class="card">
     <h2>Mūsų adresas:</h2>
