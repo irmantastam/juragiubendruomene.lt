@@ -15,6 +15,8 @@ defineProps({
 
   <h1>{{ msg }}</h1>
 
+  <i>Būkime kartu!</i>
+
   <h3>Adresas:</h3>
 
   <p>Girininkų g. 6, Juragiai, LT-53286 Kauno r.</p>
@@ -35,15 +37,20 @@ defineProps({
       target="_blank"
       rel="noopener noreferrer"
     >
-      Aplankykite mus Facebook! ⓕ
+      Sekite mus Facebook! ⓕ
     </a>
   </p>
 </template>
 
 <style scoped>
 .main-image {
-  border-radius: 100%;
-  aspect-ratio: 1;
+  border-radius: 0.4em;
   max-width: 100%;
+  filter: drop-shadow(0 0 1em #c8f7d7);
+}
+
+i {
+  display: block;
+  margin-top: -0.8em;
 }
 </style>

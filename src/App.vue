@@ -3,7 +3,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
-  <HelloWorld msg="Juragių bendruomenės centras" />
+  <HelloWorld msg="Juragių bendruomenė" />
 </template>
 
 <style scoped>
