@@ -3,7 +3,6 @@
   line-height: 1.5;
   font-weight: 400;
   color: #213547;
-  background-color: rgb(247 249 250/1);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -66,4 +65,7 @@ button:focus-visible {
   margin: 0 auto;
   padding: 1rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -1,6 +1,4 @@
 <script setup>
-import illustration from "./Illustration.vue";
-
 defineProps({
   msg: String,
 });
@@ -10,7 +8,6 @@ defineProps({
   <img
     class="main-image"
     width="400"
-    height="300"
     src="../assets/juragiu_bendruomene.webp"
     alt="Juragių bendruomenės centras"
     title="Juragių bendruomenės centras"
@@ -42,7 +39,12 @@ defineProps({
     </a>
   </div>
 
-  <illustration />
+  <img
+    class="logo"
+    src="../assets/logo.png"
+    alt="Juragių bendruomenės logo"
+    width="80"
+  />
 
   <p class="link">juragiubendruomene.lt 2024</p>
 </template>
