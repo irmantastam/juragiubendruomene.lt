@@ -8,6 +8,7 @@ defineProps({
   <img
     class="main-image"
     width="400"
+    height="300"
     src="../assets/juragiu_bendruomene.webp"
     alt="Juragių bendruomenės centras"
     title="Juragių bendruomenės centras"
@@ -44,6 +45,7 @@ defineProps({
     src="../assets/logo.png"
     alt="Juragių bendruomenės logo"
     width="80"
+    height="80"
   />
 
   <p class="link">juragiubendruomene.lt 2024</p>
@@ -53,6 +55,7 @@ defineProps({
 .main-image {
   border-radius: 0.4em;
   max-width: 100%;
+  height: auto;
   border: 0.1em solid rgb(207 217 224/1);
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -4px rgba(0, 0, 0, 0.1);
